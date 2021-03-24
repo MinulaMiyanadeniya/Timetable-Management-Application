@@ -1,0 +1,11 @@
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\bin\Debug\TimeTableManagementApp.exe.config
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\bin\Debug\TimeTableManagementApp.exe
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\bin\Debug\TimeTableManagementApp.pdb
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.csprojAssemblyReference.cache
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.Form1.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.Properties.Resources.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.csproj.GenerateResource.cache
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.csproj.CoreCompileInputs.cache
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.exe
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.pdb
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.AddLocations_cd.resources

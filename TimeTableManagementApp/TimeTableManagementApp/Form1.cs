@@ -12,6 +12,8 @@ namespace TimeTableManagementApp
 {
     public partial class Form1 : Form
     {
+        AddLocations_cd addLocation_cd = new AddLocations_cd();
+
         public Form1()
         {
             InitializeComponent();
@@ -35,6 +37,11 @@ namespace TimeTableManagementApp
         private void Panel4_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void Button14_Click(object sender, EventArgs e)
+        {
+            addLocation_cd.Show();
         }
     }
 }
