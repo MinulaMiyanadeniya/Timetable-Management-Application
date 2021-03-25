@@ -9,3 +9,4 @@ E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeT
 E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.exe
 E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.pdb
 E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.AddLocations_cd.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.ManageLocation_cd.resources

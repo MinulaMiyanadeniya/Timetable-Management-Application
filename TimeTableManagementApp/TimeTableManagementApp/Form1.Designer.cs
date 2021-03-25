@@ -337,8 +337,9 @@
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(200, 53);
             this.button15.TabIndex = 7;
-            this.button15.Text = "VIEW STATISTICS";
+            this.button15.Text = "MANAGE LOCATIONS";
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.Button15_Click);
             // 
             // button14
             // 
