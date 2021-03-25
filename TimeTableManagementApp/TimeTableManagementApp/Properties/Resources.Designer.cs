@@ -63,6 +63,16 @@ namespace TimeTableManagementApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap administration {
+            get {
+                object obj = ResourceManager.GetObject("administration", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bc2 {
             get {
                 object obj = ResourceManager.GetObject("bc2", resourceCulture);

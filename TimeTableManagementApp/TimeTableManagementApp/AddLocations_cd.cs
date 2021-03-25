@@ -70,6 +70,7 @@ namespace TimeTableManagementApp
                     cmd.ExecuteNonQuery();
                     con.Close();
                     MessageBox.Show("Location Details have been added successfully");
+                    clear();
                 }
                 catch (Exception ex)
                 {
@@ -84,11 +85,21 @@ namespace TimeTableManagementApp
 
         private void Button2_Click(object sender, EventArgs e)
         {
+            clear();
+        }
+
+
+        public void clear() {
+
+
             txtBname.Text = "";
             txtRname.Text = "";
             txtCapacity.Text = "";
             rbtnLectureHall.Checked = false;
             rbtnLaboratory.Checked = false;
+
+
         }
+
     }
 }
