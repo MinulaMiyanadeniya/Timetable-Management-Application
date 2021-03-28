@@ -14,6 +14,7 @@ namespace TimeTableManagementApp
     {
         AddLocations_cd addLocation_cd = new AddLocations_cd();
         ManageLocation_cd manageLocation_cd = new ManageLocation_cd();
+        Statistics_cd statistics_cd = new Statistics_cd();
 
         public Form1()
         {
@@ -48,6 +49,11 @@ namespace TimeTableManagementApp
         private void Button15_Click(object sender, EventArgs e)
         {
             manageLocation_cd.Show();
+        }
+
+        private void Button16_Click(object sender, EventArgs e)
+        {
+            statistics_cd.Show();
         }
     }
 }

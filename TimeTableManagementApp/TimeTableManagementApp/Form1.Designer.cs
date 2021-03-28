@@ -327,8 +327,9 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(200, 53);
             this.button16.TabIndex = 8;
-            this.button16.Text = "MANAGE SESSION ROOMS";
+            this.button16.Text = "STATISTICS";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.Button16_Click);
             // 
             // button15
             // 
