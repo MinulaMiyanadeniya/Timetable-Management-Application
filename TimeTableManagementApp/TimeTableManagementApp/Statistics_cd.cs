@@ -12,17 +12,23 @@ using System.Windows.Forms;
 namespace TimeTableManagementApp
 {
     public partial class Statistics_cd : Form
+
     {
         String path = "Data Source=LAPTOP-5D763AI2\\CHAMODISQL;Initial Catalog=TimeTableManagementApp;Integrated Security=True";
         SqlConnection con;
+        SqlConnection con1;
         SqlCommand cmd;
         SqlDataAdapter adpt;
+
+        WhatsNew_cd whatsNew_cd = new WhatsNew_cd();
 
         public Statistics_cd()
         {
             InitializeComponent();
             con = new SqlConnection(path);
+            con1 = new SqlConnection(path);
             Loadchart();
+            LoadPieChart();
         }
 
         public void Loadchart() {
@@ -44,6 +50,33 @@ namespace TimeTableManagementApp
             dtChartData.Load(reader);
 
             return dtChartData;
+
+            
+        }
+
+        public void LoadPieChart() {
+
+            chart2.DataSource = GetData2();
+            chart2.Series["Series1"].XValueMember = "RegistrationType";
+            chart2.Series["Series1"].YValueMembers = "Number";
+
+        }
+
+        private object GetData2()
+        {
+
+            DataTable dtChartData = new DataTable();
+
+            con1.Open();
+            cmd = new SqlCommand("rdtest2", con1);
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlDataReader reader = cmd.ExecuteReader();
+            dtChartData.Load(reader);
+            
+            return dtChartData;
+
+            
+
         }
 
         private void Label2_Click(object sender, EventArgs e)
@@ -64,7 +97,17 @@ namespace TimeTableManagementApp
 
         private void Label3_Click_1(object sender, EventArgs e)
         {
+          
+        }
 
+        private void Statistics_cd_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            whatsNew_cd.Show();
         }
     }
 }

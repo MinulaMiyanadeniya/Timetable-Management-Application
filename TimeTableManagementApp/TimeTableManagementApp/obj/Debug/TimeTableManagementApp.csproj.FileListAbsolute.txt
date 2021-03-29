@@ -11,3 +11,4 @@ E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeT
 E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.AddLocations_cd.resources
 E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.ManageLocation_cd.resources
 E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.Statistics_cd.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.WhatsNew_cd.resources

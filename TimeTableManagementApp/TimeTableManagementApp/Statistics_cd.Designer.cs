@@ -40,6 +40,7 @@
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
@@ -70,7 +71,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(702, 91);
+            this.label2.Location = new System.Drawing.Point(900, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(331, 36);
             this.label2.TabIndex = 5;
@@ -92,10 +93,10 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(649, 130);
+            this.chart1.Location = new System.Drawing.Point(749, 144);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
-            this.chart1.Size = new System.Drawing.Size(554, 538);
+            this.chart1.Size = new System.Drawing.Size(643, 538);
             this.chart1.TabIndex = 8;
             this.chart1.Text = "chart1";
             // 
@@ -107,15 +108,17 @@
             this.chart2.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.chart2.Legends.Add(legend2);
-            this.chart2.Location = new System.Drawing.Point(26, 147);
+            this.chart2.Location = new System.Drawing.Point(28, 144);
             this.chart2.Name = "chart2";
             this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series1.IsValueShownAsLabel = true;
+            series1.LabelFormat = "#,##%";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart2.Series.Add(series1);
-            this.chart2.Size = new System.Drawing.Size(503, 466);
+            this.chart2.Size = new System.Drawing.Size(656, 552);
             this.chart2.TabIndex = 9;
             this.chart2.Text = "chart2";
             // 
@@ -124,18 +127,32 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(113, 91);
+            this.label3.Location = new System.Drawing.Point(245, 91);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(293, 36);
             this.label3.TabIndex = 10;
             this.label3.Text = "Registered Details";
             this.label3.Click += new System.EventHandler(this.Label3_Click_1);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(59)))));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Teal;
+            this.button1.Location = new System.Drawing.Point(658, 728);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 58);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "What\'s New?";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
             // Statistics_cd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1416, 798);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.chart2);
             this.Controls.Add(this.chart1);
@@ -144,6 +161,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Statistics_cd";
             this.Text = "Statistics";
+            this.Load += new System.EventHandler(this.Statistics_cd_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
@@ -162,5 +180,6 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
     }
 }
