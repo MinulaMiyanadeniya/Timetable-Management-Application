@@ -43,17 +43,22 @@ namespace TimeTableManagementApp
 
         private void Button14_Click(object sender, EventArgs e)
         {
-            addLocation_cd.Show();
+            addLocation_cd.ShowDialog();
         }
 
         private void Button15_Click(object sender, EventArgs e)
         {
-            manageLocation_cd.Show();
+            manageLocation_cd.display();
+            manageLocation_cd.ShowDialog();
         }
 
         private void Button16_Click(object sender, EventArgs e)
         {
-            statistics_cd.Show();
+
+            statistics_cd.clearpie();
+            statistics_cd.LoadPieChart();
+            statistics_cd.Loadchart();
+            statistics_cd.ShowDialog();
         }
     }
 }

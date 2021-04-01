@@ -159,5 +159,17 @@
   <ItemGroup>
     <None Include="Resources\lamp %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeicon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-left-arrow-circular-button-outline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-list.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

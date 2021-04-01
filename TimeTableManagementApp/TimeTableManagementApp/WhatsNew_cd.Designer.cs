@@ -31,14 +31,15 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lecturer = new System.Windows.Forms.TextBox();
-            this.group = new System.Windows.Forms.TextBox();
-            this.subject = new System.Windows.Forms.TextBox();
             this.room = new System.Windows.Forms.TextBox();
+            this.subject = new System.Windows.Forms.TextBox();
+            this.group = new System.Windows.Forms.TextBox();
+            this.lecturer = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -82,38 +83,41 @@
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             // 
-            // label2
+            // room
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(46, 80);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(197, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Latest Lecturer :";
+            this.room.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.room.Location = new System.Drawing.Point(276, 469);
+            this.room.Name = "room";
+            this.room.ReadOnly = true;
+            this.room.Size = new System.Drawing.Size(308, 30);
+            this.room.TabIndex = 8;
             // 
-            // label3
+            // subject
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(46, 207);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(164, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Latest Group:";
+            this.subject.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subject.Location = new System.Drawing.Point(276, 334);
+            this.subject.Name = "subject";
+            this.subject.ReadOnly = true;
+            this.subject.Size = new System.Drawing.Size(308, 30);
+            this.subject.TabIndex = 7;
             // 
-            // label4
+            // group
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(46, 329);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(187, 25);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Latest Subject :";
+            this.group.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.group.Location = new System.Drawing.Point(276, 209);
+            this.group.Name = "group";
+            this.group.ReadOnly = true;
+            this.group.Size = new System.Drawing.Size(308, 30);
+            this.group.TabIndex = 6;
+            // 
+            // lecturer
+            // 
+            this.lecturer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lecturer.Location = new System.Drawing.Point(276, 85);
+            this.lecturer.Name = "lecturer";
+            this.lecturer.ReadOnly = true;
+            this.lecturer.Size = new System.Drawing.Size(308, 30);
+            this.lecturer.TabIndex = 5;
             // 
             // label5
             // 
@@ -126,49 +130,60 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Latest Room :";
             // 
-            // lecturer
+            // label4
             // 
-            this.lecturer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lecturer.Location = new System.Drawing.Point(276, 85);
-            this.lecturer.Name = "lecturer";
-            this.lecturer.ReadOnly = true;
-            this.lecturer.Size = new System.Drawing.Size(308, 30);
-            this.lecturer.TabIndex = 5;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Teal;
+            this.label4.Location = new System.Drawing.Point(46, 329);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(187, 25);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Latest Subject :";
             // 
-            // group
+            // label3
             // 
-            this.group.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.group.Location = new System.Drawing.Point(276, 209);
-            this.group.Name = "group";
-            this.group.ReadOnly = true;
-            this.group.Size = new System.Drawing.Size(308, 30);
-            this.group.TabIndex = 6;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Teal;
+            this.label3.Location = new System.Drawing.Point(46, 207);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(164, 25);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Latest Group:";
             // 
-            // subject
+            // label2
             // 
-            this.subject.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subject.Location = new System.Drawing.Point(276, 334);
-            this.subject.Name = "subject";
-            this.subject.ReadOnly = true;
-            this.subject.Size = new System.Drawing.Size(308, 30);
-            this.subject.TabIndex = 7;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Teal;
+            this.label2.Location = new System.Drawing.Point(46, 80);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(197, 25);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Latest Lecturer :";
             // 
-            // room
+            // button1
             // 
-            this.room.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.room.Location = new System.Drawing.Point(276, 469);
-            this.room.Name = "room";
-            this.room.ReadOnly = true;
-            this.room.Size = new System.Drawing.Size(308, 30);
-            this.room.TabIndex = 8;
+            this.button1.BackColor = System.Drawing.SystemColors.Control;
+            this.button1.BackgroundImage = global::TimeTableManagementApp.Properties.Resources.back_left_arrow_circular_button_outline;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(74, 582);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(106, 100);
+            this.button1.TabIndex = 7;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::TimeTableManagementApp.Properties.Resources.lamp__1_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(1194, 102);
+            this.pictureBox1.Location = new System.Drawing.Point(1184, 125);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(187, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(197, 220);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
@@ -176,7 +191,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1430, 689);
+            this.ClientSize = new System.Drawing.Size(1430, 782);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
@@ -205,5 +221,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

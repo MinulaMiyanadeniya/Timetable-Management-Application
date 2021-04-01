@@ -317,7 +317,6 @@
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(200, 53);
             this.button17.TabIndex = 9;
-            this.button17.Text = "button17";
             this.button17.UseVisualStyleBackColor = false;
             // 
             // button16

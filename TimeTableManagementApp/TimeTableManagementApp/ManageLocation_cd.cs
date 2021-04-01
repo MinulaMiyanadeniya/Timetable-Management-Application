@@ -24,9 +24,14 @@ namespace TimeTableManagementApp
 
         public ManageLocation_cd()
         {
+
+            
+
             InitializeComponent();
             con = new SqlConnection(path);
             display();
+            label7.Text = DateTime.Now.ToString("hh:mm:ss tt");
+
         }
 
         private void TextBox3_TextChanged(object sender, EventArgs e)
@@ -124,6 +129,7 @@ namespace TimeTableManagementApp
                 con.Close();
                 MessageBox.Show("Details has been Updated Successfully");
                 display();
+                clear();
 
             }
             catch (Exception ex) {
@@ -144,6 +150,7 @@ namespace TimeTableManagementApp
 
                 con.Close();
                 display();
+                clear();
 
             }
             catch (Exception ex) {
@@ -155,6 +162,36 @@ namespace TimeTableManagementApp
         private void GroupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            display();
+        }
+
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Textsearch_TextChanged(object sender, EventArgs e)
+        {
+            con.Open();
+            adpt = new SqlDataAdapter("select * from LocationDetails where BuildingName like '%" + textsearch.Text + "%' ", con);
+            dt = new DataTable();
+            adpt.Fill(dt);
+            dataGridView1.DataSource = dt;
+            con.Close();
         }
     }
 }

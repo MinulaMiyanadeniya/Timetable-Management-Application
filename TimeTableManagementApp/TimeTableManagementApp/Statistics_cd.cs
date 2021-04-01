@@ -27,12 +27,13 @@ namespace TimeTableManagementApp
             InitializeComponent();
             con = new SqlConnection(path);
             con1 = new SqlConnection(path);
-            Loadchart();
-            LoadPieChart();
+            //Loadchart();
+            //LoadPieChart();
+          
         }
 
         public void Loadchart() {
-
+            chart1.Series.Clear();
             //chart1.DataSource = GetData();
             chart1.DataBindCrossTable(GetData().DefaultView, "RoomType", "BuildingName", "RN","");
 
@@ -48,14 +49,15 @@ namespace TimeTableManagementApp
             cmd.CommandType = CommandType.StoredProcedure;
             SqlDataReader reader = cmd.ExecuteReader();
             dtChartData.Load(reader);
-
+            con.Close();
             return dtChartData;
-
+            
             
         }
 
         public void LoadPieChart() {
 
+           
             chart2.DataSource = GetData2();
             chart2.Series["Series1"].XValueMember = "RegistrationType";
             chart2.Series["Series1"].YValueMembers = "Number";
@@ -72,11 +74,21 @@ namespace TimeTableManagementApp
             cmd.CommandType = CommandType.StoredProcedure;
             SqlDataReader reader = cmd.ExecuteReader();
             dtChartData.Load(reader);
-            
+            con1.Close();
             return dtChartData;
 
+
+           
             
 
+        }
+
+        public void clearpie() {
+
+            foreach (var series in chart2.Series)
+            {
+                series.Points.Clear();
+            }
         }
 
         private void Label2_Click(object sender, EventArgs e)
@@ -107,7 +119,21 @@ namespace TimeTableManagementApp
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            whatsNew_cd.Show();
+            whatsNew_cd.LoadText();
+            whatsNew_cd.ShowDialog();
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
+            
+            //chart2.Series.Add("Series1");
         }
     }
 }

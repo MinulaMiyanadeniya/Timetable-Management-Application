@@ -13,10 +13,13 @@ namespace TimeTableManagementApp
 {
     public partial class WhatsNew_cd : Form
     {
+        
         //String connection
         String path = "Data Source=LAPTOP-5D763AI2\\CHAMODISQL;Initial Catalog=TimeTableManagementApp;Integrated Security=True";
         SqlConnection con;
         SqlCommand cmd;
+
+        
 
         public WhatsNew_cd()
         {
@@ -57,6 +60,18 @@ namespace TimeTableManagementApp
 
            
 
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+           
+            this.Close();
+            
         }
     }
 }
