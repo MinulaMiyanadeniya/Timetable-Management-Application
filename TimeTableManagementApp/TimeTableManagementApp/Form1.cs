@@ -15,6 +15,7 @@ namespace TimeTableManagementApp
         AddLocations_cd addLocation_cd = new AddLocations_cd();
         ManageLocation_cd manageLocation_cd = new ManageLocation_cd();
         Statistics_cd statistics_cd = new Statistics_cd();
+        AllocateSessionRoom allocatesr = new AllocateSessionRoom();
 
         public Form1()
         {
@@ -59,6 +60,12 @@ namespace TimeTableManagementApp
             statistics_cd.LoadPieChart();
             statistics_cd.Loadchart();
             statistics_cd.ShowDialog();
+        }
+
+        private void Button17_Click(object sender, EventArgs e)
+        {
+            allocatesr.ShowDialog();
+
         }
     }
 }

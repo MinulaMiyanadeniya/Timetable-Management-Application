@@ -306,9 +306,8 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(62, 497);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 17);
+            this.label5.Size = new System.Drawing.Size(0, 17);
             this.label5.TabIndex = 10;
-            this.label5.Text = "//Chamodi";
             // 
             // button17
             // 
@@ -317,7 +316,9 @@
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(200, 53);
             this.button17.TabIndex = 9;
+            this.button17.Text = "ADD ROOM";
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.Button17_Click);
             // 
             // button16
             // 

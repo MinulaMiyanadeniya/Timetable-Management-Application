@@ -53,6 +53,12 @@
     <Compile Include="AddLocations_cd.Designer.cs">
       <DependentUpon>AddLocations_cd.cs</DependentUpon>
     </Compile>
+    <Compile Include="AllocateSessionRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllocateSessionRoom.Designer.cs">
+      <DependentUpon>AllocateSessionRoom.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     </Compile>
     <EmbeddedResource Include="AddLocations_cd.resx">
       <DependentUpon>AddLocations_cd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllocateSessionRoom.resx">
+      <DependentUpon>AllocateSessionRoom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
