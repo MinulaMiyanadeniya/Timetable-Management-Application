@@ -71,6 +71,12 @@
     <Compile Include="ManageLocation_cd.Designer.cs">
       <DependentUpon>ManageLocation_cd.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageSessionRoom_cd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageSessionRoom_cd.Designer.cs">
+      <DependentUpon>ManageSessionRoom_cd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Statistics_cd.cs">
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManageLocation_cd.resx">
       <DependentUpon>ManageLocation_cd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageSessionRoom_cd.resx">
+      <DependentUpon>ManageSessionRoom_cd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
