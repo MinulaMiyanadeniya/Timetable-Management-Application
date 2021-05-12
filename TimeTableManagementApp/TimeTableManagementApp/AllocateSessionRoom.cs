@@ -174,7 +174,7 @@ namespace TimeTableManagementApp
             tag = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
             status = dataGridView1.Rows[e.RowIndex].Cells[7].Value.ToString();
 
-            label5.Text = sid;
+            
         }
 
 
@@ -237,8 +237,14 @@ namespace TimeTableManagementApp
             tag2 = dataGridView3.Rows[e.RowIndex].Cells[6].Value.ToString();
             status2 = dataGridView3.Rows[e.RowIndex].Cells[7].Value.ToString();
 
-            label7.Text = sid2;
 
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            ms = new ManageSessionRoom_cd(sid2, lec12, lec22, subcode2, subname2, grpid2, tag2, status2);
+            //ms.getData();
+            ms.ShowDialog();
         }
     }
 }

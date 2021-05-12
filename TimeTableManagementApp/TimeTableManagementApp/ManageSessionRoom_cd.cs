@@ -31,6 +31,7 @@ namespace TimeTableManagementApp
         public String tag;
         public String status;
         String cbx;
+        ViewSessionRoom_cd vs;
 
 
         public ManageSessionRoom_cd(String sid, String lec1, String lec2, String subcode, String subname, String grpid, String tag, String status)
@@ -48,6 +49,7 @@ namespace TimeTableManagementApp
             this.tag = tag;
             this.status = status;
             getroom();
+            
 
         }
 
@@ -70,22 +72,23 @@ namespace TimeTableManagementApp
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);
-
-            dr = dt.NewRow();
-            dr.ItemArray = new object[] { 0, "--Select Room--" };
-            dt.Rows.InsertAt(dr, 0);
-
-            comboBox1.ValueMember = "RoomID";
-
-            comboBox1.DisplayMember = "RoomName";
-            comboBox1.DataSource = dt;
-
-            
             con.Close();
 
+            dr = dt.NewRow();
+            //dr.ItemArray = new object[] { 0, "--Select Room--" };
+            //dt.Rows.InsertAt(dr, 0);
+            comboBox1.DataSource = dt;
+            comboBox1.ValueMember = "RoomName";
+
+            comboBox1.DisplayMember = "RoomName";
+            
+
+            
             
 
 
+            
+            richTextBox1.Text = ("Session id:" + sid + " lecturer1:" + lec1 + " lecturer2:" + lec2 + " subject code: " + subcode + " subject name: " + subname + " groupID: " + grpid + " tag" + tag);
 
 
         }
@@ -93,11 +96,55 @@ namespace TimeTableManagementApp
         private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-            cbx = comboBox1.SelectedItem.ToString();
-            richTextBox1.Text = ("Session id:" + sid + " lecturer1:" + lec1 + " lecturer2:" + lec2 + " subject code:" + subcode + " subject name" + subname + " groupID" + grpid + " tag" + tag);
+            
 
 
 
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            //submit
+
+            try {
+
+                cbx = comboBox1.SelectedValue.ToString();
+                con.Open();
+                // cmd = new SqlCommand("insert into session_status_room set id='" + sid + "',lec1='" + lec1 + "',lec2='" + lec2 + "',subcode='" + subcode + "',subname='" + subname + "',grpid='" + grpid + "',tag='" + tag + "',status='" + status + "',room='" + cbx + "'", con);
+                cmd = new SqlCommand("insert into session_status_room (id,lec1,lec2,subcode,subname,grpid,tag,status,room) values('" + sid + "','" + lec1 + "','" + lec2 + "','" + subcode + "','" + subname + "','" + grpid + "','" + tag + "','" + status + "','" + cbx + "')", con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                MessageBox.Show("Details has been Submited Successfully");
+                clear();
+                
+
+
+
+            }
+            catch (Exception ex) {
+
+                MessageBox.Show(ex.Message);
+
+            }
+        }
+
+
+        public void clear() {
+
+            textBox1.Text = "";
+            richTextBox1.Text = "";
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            clear();
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            vs = new ViewSessionRoom_cd();
+            vs.ShowDialog();
         }
     }
 }

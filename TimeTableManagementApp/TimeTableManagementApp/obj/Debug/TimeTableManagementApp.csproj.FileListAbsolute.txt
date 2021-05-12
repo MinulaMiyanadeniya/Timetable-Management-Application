@@ -14,3 +14,4 @@ E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeT
 E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.WhatsNew_cd.resources
 E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.AllocateSessionRoom.resources
 E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.ManageSessionRoom_cd.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.ViewSessionRoom_cd.resources

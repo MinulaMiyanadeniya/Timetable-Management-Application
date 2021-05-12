@@ -71,6 +71,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gold;
             this.label1.Location = new System.Drawing.Point(473, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(380, 39);
@@ -83,6 +84,7 @@
             this.Consecatives.Controls.Add(this.tabPage1);
             this.Consecatives.Controls.Add(this.tabPage2);
             this.Consecatives.Controls.Add(this.tabPage3);
+            this.Consecatives.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Consecatives.Location = new System.Drawing.Point(12, 94);
             this.Consecatives.Name = "Consecatives";
             this.Consecatives.SelectedIndex = 0;
@@ -97,10 +99,10 @@
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.dataGridView1);
             this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1292, 542);
+            this.tabPage1.Size = new System.Drawing.Size(1292, 538);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Consecative";
             // 
@@ -145,10 +147,10 @@
             this.tabPage2.Controls.Add(this.button2);
             this.tabPage2.Controls.Add(this.dataGridView2);
             this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1292, 542);
+            this.tabPage2.Size = new System.Drawing.Size(1292, 538);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Non overlapping";
             // 
@@ -167,11 +169,11 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(42, 59);
+            this.dataGridView2.Location = new System.Drawing.Point(0, 59);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(1174, 369);
+            this.dataGridView2.Size = new System.Drawing.Size(1289, 296);
             this.dataGridView2.TabIndex = 2;
             this.dataGridView2.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView2_CellContentDoubleClick);
             this.dataGridView2.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView2_CellDoubleClick_1);
@@ -193,10 +195,10 @@
             this.tabPage3.Controls.Add(this.button4);
             this.tabPage3.Controls.Add(this.label4);
             this.tabPage3.Controls.Add(this.dataGridView3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1292, 542);
+            this.tabPage3.Size = new System.Drawing.Size(1292, 538);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Not available";
             // 
@@ -210,14 +212,15 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "ADD ROOM";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Verdana", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(233, 41);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(430, 39);
+            this.label4.Size = new System.Drawing.Size(490, 41);
             this.label4.TabIndex = 1;
             this.label4.Text = "Add room for not availables";
             this.label4.Click += new System.EventHandler(this.Label4_Click);
@@ -251,29 +254,32 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(393, 414);
+            this.label5.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(19, 36);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 17);
+            this.label5.Size = new System.Drawing.Size(254, 20);
             this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.label5.Text = "double click on raw to select";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(360, 464);
+            this.label6.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(6, 36);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 17);
+            this.label6.Size = new System.Drawing.Size(254, 20);
             this.label6.TabIndex = 5;
-            this.label6.Text = "label6";
+            this.label6.Text = "double click on raw to select";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(393, 476);
+            this.label7.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(44, 94);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 17);
+            this.label7.Size = new System.Drawing.Size(254, 20);
             this.label7.TabIndex = 6;
-            this.label7.Text = "label7";
+            this.label7.Text = "double click on raw to select";
             // 
             // AllocateSessionRoom
             // 
