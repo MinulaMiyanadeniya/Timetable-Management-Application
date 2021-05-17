@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 E:\ITPM_Project\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\bin\Debug\TimeTableManagementApp.exe.config
 E:\ITPM_Project\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\bin\Debug\TimeTableManagementApp.exe
 E:\ITPM_Project\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\bin\Debug\TimeTableManagementApp.pdb
@@ -15,3 +16,22 @@ E:\ITPM_Project\Timetable-Management-Application\TimeTableManagementApp\TimeTabl
 E:\ITPM_Project\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.ManageSubject.resources
 E:\ITPM_Project\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.AddSession.resources
 E:\ITPM_Project\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.ManageSession.resources
+=======
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\bin\Debug\TimeTableManagementApp.exe.config
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\bin\Debug\TimeTableManagementApp.exe
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\bin\Debug\TimeTableManagementApp.pdb
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.csprojAssemblyReference.cache
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.Form1.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.Properties.Resources.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.csproj.GenerateResource.cache
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.csproj.CoreCompileInputs.cache
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.exe
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.pdb
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.AddLocations_cd.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.ManageLocation_cd.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.Statistics_cd.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.WhatsNew_cd.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.AllocateSessionRoom.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.ManageSessionRoom_cd.resources
+E:\Year3 Semester 1\ITPM\Clone - on going\Timetable-Management-Application\TimeTableManagementApp\TimeTableManagementApp\obj\Debug\TimeTableManagementApp.ViewSessionRoom_cd.resources
+>>>>>>> 3ceba1663176311f0f9ad3c884bc902240b815f7

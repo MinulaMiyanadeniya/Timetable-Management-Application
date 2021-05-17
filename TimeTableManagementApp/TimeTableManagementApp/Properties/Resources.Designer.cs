@@ -63,9 +63,25 @@ namespace TimeTableManagementApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap aaaaa {
             get {
                 object obj = ResourceManager.GetObject("aaaaa", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap administration {
+            get {
+                object obj = ResourceManager.GetObject("administration", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap back_left_arrow_circular_button_outline {
+            get {
+                object obj = ResourceManager.GetObject("back-left-arrow-circular-button-outline", resourceCulture);
+>>>>>>> 3ceba1663176311f0f9ad3c884bc902240b815f7
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +129,45 @@ namespace TimeTableManagementApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap book {
             get {
                 object obj = ResourceManager.GetObject("book", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap check_list {
+            get {
+                object obj = ResourceManager.GetObject("check-list", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home {
+            get {
+                object obj = ResourceManager.GetObject("home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap homeicon {
+            get {
+                object obj = ResourceManager.GetObject("homeicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap homeicon2 {
+            get {
+                object obj = ResourceManager.GetObject("homeicon2", resourceCulture);
+>>>>>>> 3ceba1663176311f0f9ad3c884bc902240b815f7
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +185,25 @@ namespace TimeTableManagementApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap man {
             get {
                 object obj = ResourceManager.GetObject("man", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap lamp {
+            get {
+                object obj = ResourceManager.GetObject("lamp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lamp__1_ {
+            get {
+                object obj = ResourceManager.GetObject("lamp (1)", resourceCulture);
+>>>>>>> 3ceba1663176311f0f9ad3c884bc902240b815f7
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

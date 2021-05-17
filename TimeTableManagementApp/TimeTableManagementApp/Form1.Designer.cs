@@ -38,8 +38,11 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.button19 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
+=======
+>>>>>>> 3ceba1663176311f0f9ad3c884bc902240b815f7
             this.label3 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -86,7 +89,11 @@
             this.label1.Location = new System.Drawing.Point(288, 24);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
+<<<<<<< HEAD
             this.label1.Size = new System.Drawing.Size(490, 32);
+=======
+            this.label1.Size = new System.Drawing.Size(604, 40);
+>>>>>>> 3ceba1663176311f0f9ad3c884bc902240b815f7
             this.label1.TabIndex = 2;
             this.label1.Text = "Timetable Management Application";
             this.label1.Click += new System.EventHandler(this.Label1_Click);
@@ -123,10 +130,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(40, 404);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 13);
+=======
+            this.label2.Location = new System.Drawing.Point(54, 497);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 17);
+>>>>>>> 3ceba1663176311f0f9ad3c884bc902240b815f7
             this.label2.TabIndex = 9;
             this.label2.Text = "//Tharushika";
             // 
@@ -190,6 +203,7 @@
             this.panel3.Size = new System.Drawing.Size(150, 462);
             this.panel3.TabIndex = 2;
             // 
+<<<<<<< HEAD
             // button19
             // 
             this.button19.BackColor = System.Drawing.Color.SpringGreen;
@@ -221,6 +235,14 @@
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
+=======
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(58, 497);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 17);
+>>>>>>> 3ceba1663176311f0f9ad3c884bc902240b815f7
             this.label3.TabIndex = 10;
             this.label3.Text = "//Hashini";
             // 
@@ -290,10 +312,16 @@
             // label4
             // 
             this.label4.AutoSize = true;
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(47, 404);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 13);
+=======
+            this.label4.Location = new System.Drawing.Point(63, 497);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(57, 17);
+>>>>>>> 3ceba1663176311f0f9ad3c884bc902240b815f7
             this.label4.TabIndex = 10;
             this.label4.Text = "//Minula";
             // 
@@ -358,12 +386,19 @@
             // label5
             // 
             this.label5.AutoSize = true;
+<<<<<<< HEAD
             this.label5.Location = new System.Drawing.Point(46, 404);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(58, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "//Chamodi";
+=======
+            this.label5.Location = new System.Drawing.Point(62, 497);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 17);
+            this.label5.TabIndex = 10;
+>>>>>>> 3ceba1663176311f0f9ad3c884bc902240b815f7
             // 
             // button17
             // 
@@ -373,8 +408,9 @@
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(150, 43);
             this.button17.TabIndex = 9;
-            this.button17.Text = "button17";
+            this.button17.Text = "ADD ROOM";
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.Button17_Click);
             // 
             // button16
             // 
@@ -384,8 +420,9 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(150, 43);
             this.button16.TabIndex = 8;
-            this.button16.Text = "MANAGE SESSION ROOMS";
+            this.button16.Text = "STATISTICS";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.Button16_Click);
             // 
             // button15
             // 
@@ -395,8 +432,9 @@
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(150, 43);
             this.button15.TabIndex = 7;
-            this.button15.Text = "VIEW STATISTICS";
+            this.button15.Text = "MANAGE LOCATIONS";
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.Button15_Click);
             // 
             // button14
             // 
@@ -408,6 +446,10 @@
             this.button14.TabIndex = 6;
             this.button14.Text = "ADD LOCATION";
             this.button14.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
+=======
+            this.button14.Click += new System.EventHandler(this.Button14_Click);
+>>>>>>> 3ceba1663176311f0f9ad3c884bc902240b815f7
             // 
             // Form1
             // 
